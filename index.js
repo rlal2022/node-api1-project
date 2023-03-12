@@ -4,6 +4,6 @@ const port = 9000;
 
 // START YOUR SERVER HERE
 
-server.listen(9000, () => {
-  console.log("the server started successfully on port 9000");
+server.listen(port, () => {
+  console.log(`the server started successfully on port ${port}`);
 });
